@@ -18,7 +18,7 @@ public class Missing_Number {
     int Missing_Number = expectedSum - actualSum;
 
 
-    if (Missing_Number == 0 ) {
+    if (expectedSum == actualSum ) {
         System.out.println("No missing number");
     } else {
         System.out.println("Missing number is: " + Missing_Number);
