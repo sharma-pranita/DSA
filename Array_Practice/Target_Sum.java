@@ -11,7 +11,7 @@ public class Target_Sum {
 
     static void Target(int[] arr,int target){
        
-        for(int i = 0;i<arr.length;i++){
+        for(int i = 0;i<arr.length-1;i++){
             for(int j = i+1;j<arr.length;j++ ){
                 int targetSum = arr[i] + arr[j];
                 if(targetSum == target){
